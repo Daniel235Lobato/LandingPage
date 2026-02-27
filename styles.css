@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homePage{
+display: flex;
+flex-direction: column;
+}
+
+.title{
+flex-grow: 1;
+}
+
+.header {
+    background-color: lightblue;
+    display: flex;
+    gap: 20px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.hero-image img{
+    width: 500px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 50px;
+    gap: 50px;
+}
+
+.hero-left{
+    width: 500px;
+}
+
+button {
+background-color: #3882f6;
+border-radius: 15px;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+img {
+height: 200px;
+width: 200px;
+border-radius: 20px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: min-content;
+    text-align: center;
+}
+
